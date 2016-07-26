@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="NewApi">
+        <ignore path="src/com/yangfang/Fragment/BoringImageFragment.java" />
+        <ignore path="src/com/yangfang/Fragment/DuanziFragment.java" />
+        <ignore path="src/com/yangfang/Fragment/MoviesFragment.java" />
+        <ignore path="src/com/yangfang/Fragment/NewsFragment.java" />
+    </issue>
+</lint>

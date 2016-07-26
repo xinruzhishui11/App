@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+    color分通用背景、通用文字、列表颜色以及私有颜色定义几个模块，背景和文字如果在通用模块中未找到，
+    可以在私有文字定义中定义，名称尽量标准化，"模块名" + "_" + "颜色名称"
+
+    -->
+    <!-- 背景通用颜色值 -->
+    <color name="bg_white">#FFFFFF</color>
+    <color name="bg_blue">#3994DB</color>
+    <color name="bg_blue_two">#20b5f3</color>
+    <color name="bg_orange">#FF8800</color>
+    <color name="bg_green">#09c856</color>
+    <color name="bg_grey">#f7f7f7</color>
+    <color name="bg_grey_two">#FAFAFA</color>
+    <color name="bg_grey_three">#cdcdcd</color>
+    <color name="bg_transparent">#80000000</color>
+
+    <!-- 文字通用颜色值 -->
+    <color name="font_black">#444</color>
+    <color name="font_grey">#999</color>
+    <color name="font_grey_low">#cdcdcd</color>
+    <color name="font_blue">#0085b2</color>
+    <color name="font_orange">#fd9426</color>
+    <color name="font_white">#FFFFFF</color>
+    <color name="font_footer">#969696</color>
+    <color name="font_login">#8F8F8F</color>
+    <color name="font_login_hint">#e1e1e1</color>
+    <color name="font_red">#EE0002</color>
+    <color name="font_green">#09c856</color>
+    <color name="font_red_one">#ff7272</color>
+    <color name="font_red_hong">#f74848</color>
+    <color name="font_one">#4C4C4C</color>
+    <color name="font_hui">#E4E4E4</color>
+    
+
+    <!-- listview -->
+    <color name="list_divider">#D4D4D4</color>
+    <color name="listview_divider_color">#dadada</color>
+    <color name="xlistview_txt_color">#ff9f9f9f</color>
+    <color name="xlistview_txt_up_color">#fff6851f</color>
+    <color name="list_pressed_color">#ffebebeb</color>
+    <color name="list_unpressed_color">#000000</color>
+    <color name="expand_grid_line_color">#ffd9d9d9</color>
+    <color name="list_pressed_msg">#EBEBEB</color>
+    <color name="list_pressed_msg_child">#F4F4F4</color>
+    <color name="list_build_group">#B7B7B7</color>
+    <color name="list_build_group_tou">#585858</color>
+    <color name="list_build_child_zi">#8D8D8D</color>
+    <color name="lighter_gray">#ffefefef</color>
+    <color name="color_view">#D0D0D0</color>
+    <color name="transparent">#000000</color>
+
+    <!-- MainActivity -->
+    <color name="infointro_line_grey">#e0e0e0</color>
+
+    <!-- SystemManageActivity -->
+    <color name="system_white">#FFFFFF</color>
+    <color name="system_line_general">#A6A6A6</color>
+    <color name="system_yijianfank_blue">#00B2EE</color>
+    <color name="system_zhujiemian">#EBEBEB</color>
+    <color name="system_croci">#EEB422</color>
+    <color name="system_bai">#f6f6f6</color>
+
+    <!-- SubBreedActivity -->
+    <color name="choosebreed_font_orange">#ffa64d</color>
+    <color name="choosebreed_userbreeditem">#20b5f3</color>
+    <color name="choosebreed_linecolor">#cccccc</color>
+
+    <!-- PriceActivity -->
+
+    <color name="price_font_blue">#20b5f3</color>
+    <color name="price_font_blue_two">#27bffe</color>
+    <color name="price_bg_grey">#eeeeee</color>
+    <color name="price_bg_greyline">#d6d6d6</color>
+    <color name="price_bg_popwindow">#80000000</color>
+    <color name="price_list_red">#FB3D3D</color>
+    <color name="price_list_green">#12C100</color>
+
+    <!-- OnlinePay -->
+    <color name="price_black">#4f4f4f</color>
+
+    <!-- 期货 -->
+    <color name="font_selected_tab">#ff4000</color>
+    <color name="font_zhishu_up">#e60012</color>
+    <color name="font_zhishu_down">#00b200</color>
+
+    <!-- MarketDetailActivity -->
+    <color name="marketdetail_bg_line">#ff4000</color>
+
+    <!-- MessageActivity -->
+    <color name="message_line_general">#DDDDDD</color>
+    <color name="message_btn_orange">#f77846</color>
+
+    <!-- 支付宝 -->
+    <color name="TextColorBlack">#FF000000</color>
+    <color name="TextColorWhite">#FFFFFFFF</color>
+    <color name="TextColorGray">#FF505050</color>
+    <color name="ToastBgColor">#FF424242</color>
+    <color name="btnColor">#FFFFFF</color>
+    <color name="textColorforItemTitle">#FF666666</color>
+    <color name="secondbtntextColor">#FF496ea3</color>
+    <color name="textColorforCheckBox">#FF333333</color>
+    <color name="bgColor">#FFF2F2F2</color>
+    <color name="downLoadTextNomal">#FF3366CC</color>
+    <color name="downLoadTextPressed">#FFFFFFFF</color>
+    <color name="downLoadBackNomal">#FFFFFFFF</color>
+    <color name="downLoadBackFocus">#FF6698E7</color>
+    <color name="downLoadBackPressed">#FF3366CC</color>
+    <color name="dialog_tiltle_blue">#2277BB</color>
+    <!-- 铁矿石 -->
+    <color name="inore_title_blue">#1C86EE</color>
+    <color name="inore_listview_line">#00000000</color>
+    <color name="inore_hui_line">#666666</color>
+    <color name="inore_red">#ed5454</color>
+    
+    <!-- 咨询 -->
+  <color name="baby_blue">#deecff</color>
+  <color name="baby_green">#484848</color>
+  <color name="baby_hei">#58b44c</color>
+  <color name="baby_gray">#c8c8c8</color>
+  
+  
+   <color name="bg_window">#ffe5e5e5</color>
+    <color name="bg_page">#ffebebeb</color>
+    <color name="bg_tab_pressed">#6633b5e5</color><!-- 蓝色 -->
+    <color name="bg_tab_normal">#00000000</color>
+    <!-- <color name="bg_tab_pressed2">#ff3898ff</color>  -->
+    
+    <color name="tab_text_color_selected">#ff0084ff</color> <!-- 选中文字颜色 -->
+    <color name="tab_text_color_normal">#ffffff</color> <!-- 未选中文字颜色 -->
+
+    <color name="txt_title">#ff333333</color>
+    <color name="txt_small">#ff7a7a7a</color>
+    <color name="txt_big">#ff717171</color>
+    <color name="item_divider">#ffd7d7d7</color>
+    <color name="detail_screen_bg">#adadad</color>
+    <color name="progress">#0294f0</color>
+    <color name="menu_bg_normal">#f0f1f3</color>
+    <color name="menu_bg_press">#cecece</color>
+    
+
+  
+</resources>

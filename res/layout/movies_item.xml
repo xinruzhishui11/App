@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="5dp"
+    >
+    
+   <ImageView 
+       android:id="@+id/item_movies_image"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:src="@drawable/logo"/>
+   
+   <TextView 
+       android:id="@+id/item_movies_text"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="16sp"
+        android:textColor="#444444"
+       android:layout_below="@id/item_movies_image"
+       android:layout_alignLeft="@id/item_movies_image"
+       android:text="好先生。。。。。。。。。"/>
+   
+   <LinearLayout
+        
+       android:id="@+id/ll_movies"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/item_movies_text"
+       android:orientation="horizontal">
+     
+       
+        <TextView
+            android:id="@+id/movies_item_dinazan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00 3"
+            android:textColor="#77787b"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/movies_item_tvView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/boringimage_item_dinazan"
+            android:text="XX 3"
+            android:textColor="#77787b"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/movies_item_tucao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/boringimage_item_tvView"
+            android:text="吐槽   3"
+            android:textColor="#77787b"
+            android:textSize="14sp" />
+       
+       
+       
+      
+       
+       
+   </LinearLayout>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</RelativeLayout>
